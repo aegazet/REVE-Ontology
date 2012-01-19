@@ -1,0 +1,10 @@
+REVE Ontology aims at describing students, courses, publications and researchers at Eurecom.
+The ontology is used to build within the data.eurecom.fr initiative.
+
+This version is 1.0.
+
+To edit the schema, clone the repository, make your changes, check to make sure your change results in a valid file.
+
+If you are satisfied with your edits, send me a pull request (http://help.github.com/pull-requests/) I'll consider merging and publishing it later.
+
+(Inspiration for this approach comes from others like https://github.com/rsinger/LinkedMARCCodes)
