@@ -212,7 +212,7 @@
     <rdfs:domain rdf:resource="#CourseCreditForTrack"/>
     <rdfs:label xml:lang="fr">crédit</rdfs:label>
     <rdfs:label xml:lang="en">has credit</rdfs:label>
-    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:range rdf:resource="&xsd;float"/>
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="#referenceAtEurecom">

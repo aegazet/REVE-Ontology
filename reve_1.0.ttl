@@ -152,7 +152,7 @@ owl:versionInfo a owl:AnnotationProperty .
 	rdfs:comment "Attribut faisant référence au nombre de crédits dans la relation (cours, crédit, filière)."@fr , "Data type property referencing the number of credits in the (course, credit, track) relationship."@en ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#CourseCreditForTrack> ;
 	rdfs:label "crédit"@fr , "has credit"@en ;
-	rdfs:range <http://www.w3.org/2001/XMLSchema#int> .
+	rdfs:range <http://www.w3.org/2001/XMLSchema#float> .
 
 <http://data.eurecom.fr/ontology/reve#referenceAtEurecom> a owl:DatatypeProperty ;
 	rdfs:comment "An article's reference in Eurecom's bibliographic repository."@en , "La r�f�rence d'un article dans la base bibliographique d'Eurecom."@fr ;
