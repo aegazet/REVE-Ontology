@@ -16,19 +16,19 @@
 	rdfs:label "Research and Education Vocabulary for EURECOM"@en .
 
 <http://data.eurecom.fr/ontology/reve#Alumnus> a owl:Class ;
-	rdfs:comment "Holders of this role have graduated and received a PhD diploma or a Eurecom certificate"@en , "Les titulaires de ce r�le ont fini un cursus � Eurecom et d�tiennent un dipl�me de doctorat ou une certification Eurecom"@fr ;
+	rdfs:comment "Holders of this role have graduated and received a PhD diploma or a Eurecom certificate"@en , "Les titulaires de ce rôle ont fini un cursus à Eurecom et détiennent un diplôme de doctorat ou une certification Eurecom"@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
-	rdfs:label "Alumnus"@en , "Ancien �l�ve"@fr ;
+	rdfs:label "Alumnus"@en , "Ancien élève"@fr ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> .
 
 <http://data.eurecom.fr/ontology/reve#Attendee> a owl:Class ;
-	rdfs:comment "Holders of this role have registered for one or several courses"@en , "Les titulaires de ce r�le sont inscrits � un ou plusieurs cours"@fr ;
+	rdfs:comment "Holders of this role have registered for one or several courses"@en , "Les titulaires de ce rôle sont inscrits à un ou plusieurs cours"@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Attendee"@en , "Participant"@fr ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> .
 
 <http://data.eurecom.fr/ontology/reve#Course> a owl:Class ;
-	rdfs:comment "A teaching unit. A course is composed of several course sessions."@en , "Une unit� d'enseignement. Un cours est compos� de plusieurs sessions de cours."@fr ;
+	rdfs:comment "A teaching unit. A course is composed of several course sessions."@en , "Une unité d'enseignement. Un cours est composé de plusieurs sessions de cours."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Cours"@fr , "Course"@en ;
 	owl:equivalentClass <http://purl.org/vocab/aiiso/schema#Course> .
@@ -38,63 +38,63 @@
 	rdfs:label "Course credit for track."@en , "Crédit du cours pour la filière."@fr .
 
 <http://data.eurecom.fr/ontology/reve#CourseSession> a owl:Class ;
-	rdfs:comment "A course session is a ponctual event on which teacher and students gather, for a given course."@en , "Une session de cours est un �v�nement ponctuel qui rassemble professeur et �l�ves en un lieu donn�, au sujet d'un cours."@fr ;
+	rdfs:comment "A course session is a ponctual event on which teacher and students gather, for a given course."@en , "Une session de cours est un évènement ponctuel qui rassemble professeur et élèves en un lieu donné, au sujet d'un cours."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Course session"@en , "Session de cours"@fr ;
 	rdfs:subClassOf <http://linkedevents.org/ontology/Event> .
 
 <http://data.eurecom.fr/ontology/reve#DoctoralStudent> a owl:Class ;
-	rdfs:comment "Holders of this role are students doing a PhD thesis."@en , "Les titulaires de ce r�le sont les �tudiants effectuant une th�se de doctorat."@fr ;
+	rdfs:comment "Holders of this role are students doing a PhD thesis."@en , "Les titulaires de ce rôle sont les étudiants effectuant une thèse de doctorat."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Doctoral student"@en , "Doctorant"@fr ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> .
 
 <http://data.eurecom.fr/ontology/reve#GeneralCourse> a owl:Class ;
-	rdfs:comment "A course which brings knowledge in law, economy, or management"@en , "Un cours qui apporte des connaissances en droit, en �conomie, ou en gestion"@fr ;
+	rdfs:comment "A course which brings knowledge in law, economy, or management"@en , "Un cours qui apporte des connaissances en droit, en économie, ou en gestion"@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
-	rdfs:label "Cours d'enseignement g�n�ral"@fr , "General course"@en ;
+	rdfs:label "Cours d'enseignement général"@fr , "General course"@en ;
 	rdfs:subClassOf <http://data.eurecom.fr/ontology/reve#Course> .
 
 <http://data.eurecom.fr/ontology/reve#LanguageCourse> a owl:Class ;
-	rdfs:comment "A course in which one learns a language other than one's native language"@en , "Un cours o� l'on apprend � s'exprimer dans une autre langue que la sienne"@fr ;
+	rdfs:comment "A course in which one learns a language other than one's native language"@en , "Un cours où l'on apprend à s'exprimer dans une autre langue que la sienne"@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Cours de langue"@fr , "Language course"@en ;
 	rdfs:subClassOf <http://data.eurecom.fr/ontology/reve#Course> .
 
 <http://data.eurecom.fr/ontology/reve#ResearchUnit> a owl:Class ;
-	rdfs:comment "A Research Unit is a group dedicated to research at Eurecom, and there are three of them."@en , "Une unit� de recherche est un groupe d�di� � la recherche � Eurecom. Il y en a trois."@fr ;
+	rdfs:comment "A Research Unit is a group dedicated to research at Eurecom, and there are three of them."@en , "Une unité de recherche est un groupe dédié à la recherche à Eurecom. Il y en a trois."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
-	rdfs:label "Research unit"@en , "Unit� de recherche"@fr ;
+	rdfs:label "Research unit"@en , "Unité de recherche"@fr ;
 	rdfs:subClassOf <http://xmlns.com/foaf/0.1/Group> ;
 	owl:equivalentClass <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
 
 <http://data.eurecom.fr/ontology/reve#Researcher> a owl:Class ;
-	rdfs:comment "Holders of this role do research."@en , "Les titulaires de ce r�le effectuent des recherches."@fr ;
+	rdfs:comment "Holders of this role do research."@en , "Les titulaires de ce rôle effectuent des recherches."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Chercheur"@fr , "Researcher"@en ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> ;
 	owl:disjointWith <http://data.eurecom.fr/ontology/reve#Student> .
 
 <http://data.eurecom.fr/ontology/reve#Semester> a owl:Class ;
-	rdfs:comment "A semester, from the administrative point of view : it typically ranges from the beginning of October to the middle of February, or from the beginning of March to the end of June. It has a catalog of courses attached to it."@en , "Un semestre, du point de vue administratif : typiquement, il s'�tend du d�but du mois d'octobre � la mi-f�vrier, ou bien de mars � la fin juin. Un catalogue de cours y est rattach�."@fr ;
+	rdfs:comment "A semester, from the administrative point of view : it typically ranges from the beginning of October to the middle of February, or from the beginning of March to the end of June. It has a catalog of courses attached to it."@en , "Un semestre, du point de vue administratif : typiquement, il s'étend du début du mois d'octobre à la mi-février, ou bien de mars à la fin juin. Un catalogue de cours y est rattaché."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Semester"@en , "Semestre"@fr .
 
 <http://data.eurecom.fr/ontology/reve#Staff> a owl:Class ;
-	rdfs:comment "Holders of this role receive a salary from Eurecom."@en , "Les titulaires de ce r�le re�oivent un salaire d'Eurecom."@fr ;
+	rdfs:comment "Holders of this role receive a salary from Eurecom."@en , "Les titulaires de ce rôle reçoivent un salaire d'Eurecom."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
-	rdfs:label "Employ�"@fr , "Staff"@en ;
+	rdfs:label "Employé"@fr , "Staff"@en ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> .
 
 <http://data.eurecom.fr/ontology/reve#Student> a owl:Class ;
-	rdfs:comment "Holders of this role are enrolled at a university."@en , "Les titulaires de ce r�le sont engag�s dans un cursus d'enseignement sup�rieur."@fr ;
+	rdfs:comment "Holders of this role are enrolled at a university."@en , "Les titulaires de ce rôle sont engagés dans un cursus d'enseignement supérieur."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Etudiant"@fr , "Student"@en ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> ;
 	owl:disjointWith <http://data.eurecom.fr/ontology/reve#Researcher> , <http://data.eurecom.fr/ontology/reve#Teacher> .
 
 <http://data.eurecom.fr/ontology/reve#Teacher> a owl:Class ;
-	rdfs:comment "Holders of this role teach one or several courses."@en , "Les titulaires de ce r�le enseignent un ou plusieurs cours."@fr ;
+	rdfs:comment "Holders of this role teach one or several courses."@en , "Les titulaires de ce rôle enseignent un ou plusieurs cours."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Enseignant"@fr , "Teacher"@en ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> ;
@@ -107,13 +107,13 @@
 	rdfs:subClassOf <http://data.eurecom.fr/ontology/reve#Course> .
 
 <http://data.eurecom.fr/ontology/reve#Track> a owl:Class ;
-	rdfs:comment "A set of mandatory and optional courses, built around a common domain. To help students select their courses, the curriculum is organized around 7 teaching tracks. Each track includes core courses, restrictive elective courses, and free elective courses that students are entirely free to choose from (except for languages)."@en , "Un ensemble de cours obligatoires et optionnels, contruit autour d'un m�me domaine. Pour aider les �tudiants � choisir leur cours, le cursus est organis� autour de 7 fili�res d'enseignement. Chaque fili�re comprend des cours obligatoires, des cours � choisir dans un menu et des cours � choix enti�rement libres (� l�exception des cours de langues vivantes)."@fr ;
+	rdfs:comment "A set of mandatory and optional courses, built around a common domain. To help students select their courses, the curriculum is organized around 7 teaching tracks. Each track includes core courses, restrictive elective courses, and free elective courses that students are entirely free to choose from (except for languages)."@en , "Un ensemble de cours obligatoires et optionnels, contruit autour d'un même domaine. Pour aider les étudiants à choisir leur cours, le cursus est organisé autour de 7 filières d'enseignement. Chaque filière comprend des cours obligatoires, des cours à choisir dans un menu et des cours à choix entièrement libres (à l'exception des cours de langues vivantes)."@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
-	rdfs:label "Fili�re"@fr , "Track"@en ;
+	rdfs:label "Filière"@fr , "Track"@en ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso/schema#KnowledgeGrouping> .
 
 <http://data.eurecom.fr/ontology/reve#VisitingScientist> a owl:Class ;
-	rdfs:comment "Holders of this role are researchers welcomed at Eurecom for a certain duration"@en , "Les titulaires de ce r�le sont des chercheurs re�us � Eurecom pour une dur�e d�termin�e"@fr ;
+	rdfs:comment "Holders of this role are researchers welcomed at Eurecom for a certain duration"@en , "Les titulaires de ce rôle sont des chercheurs reçus à Eurecom pour une durée déterminée"@fr ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "Visiteur scientifique"@fr , "Visiting scientist"@en ;
 	rdfs:subClassOf <http://purl.org/vocab/aiiso-roles/schema#Role> .
@@ -155,10 +155,10 @@ owl:versionInfo a owl:AnnotationProperty .
 	rdfs:range <http://www.w3.org/2001/XMLSchema#float> .
 
 <http://data.eurecom.fr/ontology/reve#referenceAtEurecom> a owl:DatatypeProperty ;
-	rdfs:comment "An article's reference in Eurecom's bibliographic repository."@en , "La r�f�rence d'un article dans la base bibliographique d'Eurecom."@fr ;
+	rdfs:comment "An article's reference in Eurecom's bibliographic repository."@en , "La référence d'un article dans la base bibliographique d'Eurecom."@fr ;
 	rdfs:domain <http://xmlns.com/foaf/0.1/Document> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
-	rdfs:label "reference at Eurecom"@en , "r�f�rence Eurecom"@fr .
+	rdfs:label "reference at Eurecom"@en , "référence Eurecom"@fr .
 
 dcmi-terms:created a owl:DatatypeProperty .
 
@@ -169,7 +169,7 @@ terms:issued a owl:DatatypeProperty .
 terms:rights a owl:DatatypeProperty .
 
 <http://data.eurecom.fr/ontology/reve#availableDuring> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a semester during which the course is available"@en , "Propri�t� faisant r�f�rence � un semestre pendant lequel le cours est disponible"@fr ;
+	rdfs:comment "Property referencing a semester during which the course is available"@en , "Propriété faisant référence à un semestre pendant lequel le cours est disponible"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "available during"@en , "disponible pendant"@fr ;
@@ -177,7 +177,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#hasAvailableCourse> .
 
 <http://data.eurecom.fr/ontology/reve#hasAvailableCourse> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a course available during the semester"@en , "Propri�t� faisant r�f�rence � un cours disponible pendant le semestre"@fr ;
+	rdfs:comment "Property referencing a course available during the semester"@en , "Propriété faisant référence à un cours disponible pendant le semestre"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Semester> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "a comme cours disponible"@fr , "has available course"@en ;
@@ -185,7 +185,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#availableDuring> .
 
 <http://data.eurecom.fr/ontology/reve#hasConstituent> a owl:ObjectProperty ;
-	rdfs:comment "A course consists in several course sessions"@en , "Un cours est constitu� de plusieurs sessions de cours"@fr ;
+	rdfs:comment "A course consists in several course sessions"@en , "Un cours est constitué de plusieurs sessions de cours"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "a pour constituant"@fr , "has constituent"@en ;
@@ -193,7 +193,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#isConstituentOf> .
 
 <http://data.eurecom.fr/ontology/reve#hasCoordinator> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a person responsible for the track"@en , "Propri�t� faisant r�f�rence � une personne responsable de la fili�re"@fr ;
+	rdfs:comment "Property referencing a person responsible for the track"@en , "Propriété faisant référence à une personne responsable de la filière"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Track> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "a pour coordinateur"@fr , "has coordinator"@en ;
@@ -207,7 +207,7 @@ terms:rights a owl:DatatypeProperty .
 	rdfs:range <http://data.eurecom.fr/ontology/reve#CourseCreditForTrack> .
 
 <http://data.eurecom.fr/ontology/reve#hasMandatoryCourse> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a course considered mandatory for the track"@en , "Propri�t� faisant r�f�rence � un cours consid�r� comme obligatoire pour la fili�re"@fr ;
+	rdfs:comment "Property referencing a course considered mandatory for the track"@en , "Propriété faisant référence à un cours considéré comme obligatoire pour la filière"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Track> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "a comme cours obligatoire"@fr , "has mandatory course"@en ;
@@ -215,7 +215,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#isMandatoryFor> .
 
 <http://data.eurecom.fr/ontology/reve#hasOptionalCourse> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a course considered optional for the track"@en , "Propri�t� faisant r�f�rence � un cours consid�r� comme optionnel pour la fili�re"@fr ;
+	rdfs:comment "Property referencing a course considered optional for the track"@en , "Propriété faisant référence à un cours considéré comme optionnel pour la filière"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Track> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "a comme cours optionnel"@fr , "has optional course"@en ;
@@ -230,7 +230,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#isTrackOf> .
 
 <http://data.eurecom.fr/ontology/reve#isConstituentOf> a owl:ObjectProperty ;
-	rdfs:comment "A course consists in several course sessions"@en , "Un cours est constitu� de plusieurs sessions de cours"@fr ;
+	rdfs:comment "A course consists in several course sessions"@en , "Un cours est constitué de plusieurs sessions de cours"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "est un constituant de"@fr , "is constituent of"@en ;
@@ -238,7 +238,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#hasConstituent> .
 
 <http://data.eurecom.fr/ontology/reve#isCoordinatorOf> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a track the person is responsible for"@en , "Propri�t� faisant r�f�rence � une fili�re dont la personne est responsable"@fr ;
+	rdfs:comment "Property referencing a track the person is responsible for"@en , "Propriété faisant référence à une filière dont la personne est responsable"@fr ;
 	rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "est le coordinateur de"@fr , "is coordinator of"@en ;
@@ -246,7 +246,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#hasCoordinator> .
 
 <http://data.eurecom.fr/ontology/reve#isMandatoryFor> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a track for which the course is considered mandatory"@en , "Propri�t� faisant r�f�rence � une fili�re pour laquelle le cours est consid�r� comme obligatoire"@fr ;
+	rdfs:comment "Property referencing a track for which the course is considered mandatory"@en , "Propriété faisant référence à une filière pour laquelle le cours est considéré comme obligatoire"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "est obligatoire pour"@fr , "is mandatory for"@en ;
@@ -254,7 +254,7 @@ terms:rights a owl:DatatypeProperty .
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#hasMandatoryCourse> .
 
 <http://data.eurecom.fr/ontology/reve#isOptionalFor> a owl:ObjectProperty ;
-	rdfs:comment "Property referencing a track for which the course is considered optional"@en , "Propri�t� faisant r�f�rence � une fili�re pour laquelle le cours est consid�r� comme optionnel"@fr ;
+	rdfs:comment "Property referencing a track for which the course is considered optional"@en , "Propriété faisant référence à une filière pour laquelle le cours est considéré comme optionnel"@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "est optionnel pour"@fr , "is optional for"@en ;
