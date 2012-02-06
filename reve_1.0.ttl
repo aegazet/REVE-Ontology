@@ -231,10 +231,10 @@ terms:rights a owl:DatatypeProperty .
 
 <http://data.eurecom.fr/ontology/reve#isConstituentOf> a owl:ObjectProperty ;
 	rdfs:comment "A course consists in several course sessions"@en , "Un cours est constitué de plusieurs sessions de cours"@fr ;
-	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
+	rdfs:domain <http://data.eurecom.fr/ontology/reve#CourseSession> ;
 	rdfs:isDefinedBy <http://data.eurecom.fr/ontology/reve> ;
 	rdfs:label "est un constituant de"@fr , "is constituent of"@en ;
-	rdfs:range <http://data.eurecom.fr/ontology/reve#CourseSession> ;
+	rdfs:range <http://data.eurecom.fr/ontology/reve#Course> ;
 	owl:inverseOf <http://data.eurecom.fr/ontology/reve#hasConstituent> .
 
 <http://data.eurecom.fr/ontology/reve#isCoordinatorOf> a owl:ObjectProperty ;

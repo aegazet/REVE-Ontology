@@ -225,11 +225,11 @@
 			<owl:ObjectProperty rdf:about="http://data.eurecom.fr/ontology/reve#isConstituentOf">
 				<rdfs:comment xml:lang="en">A course consists in several course sessions</rdfs:comment>
 				<rdfs:comment xml:lang="fr">Un cours est constitué de plusieurs sessions de cours</rdfs:comment>
-				<rdfs:domain rdf:resource="http://data.eurecom.fr/ontology/reve#Course" />
+				<rdfs:domain rdf:resource="http://data.eurecom.fr/ontology/reve#CourseSession" />
 				<rdfs:isDefinedBy rdf:resource="http://data.eurecom.fr/ontology/reve" />
 				<rdfs:label xml:lang="fr">est un constituant de</rdfs:label>
 				<rdfs:label xml:lang="en">is constituent of</rdfs:label>
-				<rdfs:range rdf:resource="http://data.eurecom.fr/ontology/reve#CourseSession" />
+				<rdfs:range rdf:resource="http://data.eurecom.fr/ontology/reve#Course" />
 				<owl:inverseOf rdf:resource="http://data.eurecom.fr/ontology/reve#hasConstituent" />
 			</owl:ObjectProperty>
 		</owl:inverseOf>
