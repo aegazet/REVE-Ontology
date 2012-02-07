@@ -203,8 +203,16 @@ terms:rights a owl:DatatypeProperty .
 <http://data.eurecom.fr/ontology/reve#hasCreditForTrack> a owl:ObjectProperty ;
 	rdfs:comment "Property referencing to the credits for the successful completion of the course in a given track."@en , "Propriété faisant référence au nombre de crédits reçus pour la validation du cours dans une filière donnée."@fr ;
 	rdfs:domain <http://data.eurecom.fr/ontology/reve#Course> ;
-	rdfs:label "Crédit pour la filière."@fr , "has credit for track"@en ;
-	rdfs:range <http://data.eurecom.fr/ontology/reve#CourseCreditForTrack> .
+	rdfs:label "Crédit pour la filière"@fr , "has credit for track"@en ;
+	rdfs:range <http://data.eurecom.fr/ontology/reve#CourseCreditForTrack> ;
+	owl:inverseOf <http://data.eurecom.fr/ontology/reve#isCreditForCourse> .
+
+<http://data.eurecom.fr/ontology/reve#isCreditForCourse> a owl:ObjectProperty ;
+	rdfs:comment "Propriété faisant référence au cours dans la relation (cours, crédit, filière)."@fr , "Property referencing the course in the (course, credit, track) relationship."@en ;
+	rdfs:domain <http://data.eurecom.fr/ontology/reve#CourseCreditForTrack> ;
+	rdfs:label "est le crédit pour le cours"@fr , "is credit for course"@en ;
+	rdfs:range <http://data.eurecom.fr/ontology/reve#Course> ;
+	owl:inverseOf <http://data.eurecom.fr/ontology/reve#hasCreditForTrack> .
 
 <http://data.eurecom.fr/ontology/reve#hasMandatoryCourse> a owl:ObjectProperty ;
 	rdfs:comment "Property referencing a course considered mandatory for the track"@en , "Propriété faisant référence à un cours considéré comme obligatoire pour la filière"@fr ;
